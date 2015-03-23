@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Recipe Finder:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Recipe_Finder_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Recipe Finder" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/org.json.jar/org.json.jar" />
+          <element id="library" level="module" name="JUnit4" module-name="Recipe Finder" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/objenesis-1.2.jar/objenesis-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/org.apache.commons.fileupload.jar/org.apache.commons.fileupload.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/org.apache.commons.io.jar/org.apache.commons.io.jar" />
+          <element id="file-copy" path="$USER_HOME$/Downloads/mockito-core-1.8.0.jar/mockito-core-1.8.0.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Recipe Finder/web/Web" />
+    </root>
+  </artifact>
+</component>

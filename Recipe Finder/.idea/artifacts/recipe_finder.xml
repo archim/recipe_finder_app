@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="recipe_finder">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="recipe_finder.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/META_INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
